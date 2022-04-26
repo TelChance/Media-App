@@ -17,6 +17,7 @@ Chance Telford
 ## APIs
 - adaptr API
 - Spotify Web API
+- Deezer API
 
 ## Tech Stack
 - HTML
