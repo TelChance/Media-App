@@ -24,6 +24,9 @@ Chance Telford
 - JavaScript
 - CSS
 
+## Badge
+[![GitHub Super-Linter](https://github.com/TelChance/Media-App/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ## MVP
 - Be able to create an account
 - Be able to make posts
