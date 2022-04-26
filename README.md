@@ -19,9 +19,9 @@ Chance Telford
 - Spotify Web API
 
 ## Tech Stack
-HTML
-JavaScript
-CSS
+- HTML
+- JavaScript
+- CSS
 
 ## MVP
 - Be able to create an account
