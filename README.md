@@ -14,6 +14,10 @@ Chance Telford
 - MySQL2
 - Node.js
 
+## Apis
+- adaptr API
+- Spotify Web API
+
 ## Tech Stack
 HTML
 JavaScript
