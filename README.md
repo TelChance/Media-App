@@ -14,7 +14,7 @@ Chance Telford
 - MySQL2
 - Node.js
 
-## Apis
+## APIs
 - adaptr API
 - Spotify Web API
 
@@ -27,7 +27,7 @@ CSS
 - Be able to create an account
 - Be able to make posts
 - Be able to like or comment on a post
-- Be able to create a playlist in you profile
+- Be able to create a playlist in your profile
 
 ## Stretch Goals
 - Create a trending page
