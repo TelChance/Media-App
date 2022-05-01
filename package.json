@@ -1,0 +1,26 @@
+{
+  "name": "media-app",
+  "version": "1.0.0",
+  "description": "My idea is to create social media app that connects people who have simillar tastes in music. With this app the idea is that you will get to look at other people's profiles and see their playlists of music and even be able to add music to a recommendation box in their profile. You will also be able to post pictures and have music connected to that post.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TelChance/Media-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TelChance/Media-App/issues"
+  },
+  "homepage": "https://github.com/TelChance/Media-App#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
