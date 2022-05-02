@@ -42,7 +42,7 @@ module.exports ={
                 ...user._doc,
                 id: user._id,
                 token
-            }
+            };
         },
         async register(_, 
         { 

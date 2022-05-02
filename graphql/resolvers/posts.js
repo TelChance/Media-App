@@ -20,7 +20,7 @@ module.exports = {
                     if(post){
                         return post;
                     } else {
-                        throw new Error('Post not found')
+                        throw new Error('Post not found');
                     }
                 } catch (err) {
                     throw new Error(err);
@@ -30,7 +30,6 @@ module.exports = {
     Mutation: {
         async createPost(_, { body }, context){
             const user = checkAuth(context);
-            console.log(user);
 
             if (argsToArgsConfig.body.trim () ==='') {
                 throw new Error('Post can not be empty');
@@ -73,7 +72,7 @@ module.exports = {
                     post.likes.push({
                         username,
                         createdAt: new Date().toISOString()
-                    })
+                    });
                 }
                 await post.save();
                 return post;

@@ -4,7 +4,9 @@
   "description": "My idea is to create social media app that connects people who have simillar tastes in music. With this app the idea is that you will get to look at other people's profiles and see their playlists of music and even be able to add music to a recommendation box in their profile. You will also be able to post pictures and have music connected to that post.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "postinstall": "semantic-ui-css-patch",
+    "serve": "node index",
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,12 @@
     "nodemon": "^2.0.16"
   },
   "dependencies": {
+    "@semantic-ui-react/css-patch": "^1.0.0",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "react-router-dom": "^6.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.2",
+    "webpack": "^5.72.0"
   }
 }
