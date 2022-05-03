@@ -1,4 +1,4 @@
-# Media-App
+# Music Connects
 
 ## Discription
 My idea is to create social media app that connects people who have simillar tastes in music. With this app the idea is that you will get to look at other people's profiles and see their playlists of music and even be able to add music to a recommendation box in their profile. You will also be able to post pictures and have music connected to that post. 
@@ -13,6 +13,11 @@ Chance Telford
 - MySQL
 - MySQL2
 - Node.js
+- Jsonwebtoken
+- bcrypt
+
+## Example
+
 
 ## APIs
 - adaptr API
